@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//   name is given the value of Dane
+//  the if condition is saying that if Mary is the same value and same type as Dane to console log 'hi, Mary'
+//  the esle condition is saying to console log 'How do you do?' if Mary is not the same type same value as Dane
+//  console log will say 'How do you do?' because name is not same type same value as 'Mary' 
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//  the console.log prints secret beacuse the if conditional is not ture. 
+//  if code was greater then 250 console.log would print 'duper'
+
 //
 
 //CODE
@@ -70,11 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// the if conditional saying isStudent is the same value same type and also say that zip being greater then 80000 then console.log  'You're A Student on the West Coast!'
+// the first else if conditional is saying to console.log 'What are your hobbies?' if isStudent is the same value same type as false or if age value is less then 30. neither is true 
+// the second else if conditioal is saying to console.log 'Welcome to Prime!' if isStudent is the same value same type as true. console.log should print 'Welcome to Prime!' because it's true.
+// not sure about 'How about the weather?' i think console.log prints 'How about the weather?' because there are no if statements to change it's output.
 //CODE
 /*
 let isStudent = true;
@@ -134,6 +133,8 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// We are missing the code to change variable colorTwo = 'purple' 
+// add colorTwo = 'purple' to the coding line following colorOne = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +148,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// the || say that only one of the conditionals can be true in order to console.log 'throw away the food!'
+// both conditionals are true so the || should be replaced with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +163,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// if(minAge <= age) is true so console.log should print 'no entry' 
+// if we want console.log to print 'enter' we need to change the if(minAge <= age) to if(minAge >= age)
+// if(minAge >= age) will console.log 'enter'
 if(minAge <= age) {
   console.log('no entry');
 } else {
